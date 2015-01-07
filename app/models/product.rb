@@ -1,4 +1,5 @@
 class Product < ActiveRecord::Base
+	validates_length_of :title, minimum: 10, too_short: 'The title must at least 10 characters'
 	validates :title, :description, :image_url, presence: true
 	validates :price, numericality: {greater_than_or_equal_to: 0.01}
 	validates :title, uniqueness: true
