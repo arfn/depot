@@ -1,5 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+ruby:
+  title: Programming Ruby 1.9
+  description:
+    Ruby is the fastest growing language out there
+    If you need to df sbla bla bla.
+  price: 49.50
+  image_url: ruby.png
+
 one:
   title: MyString
   description: MyText
