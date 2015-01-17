@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui/effect-blind
+//can
 //= require turbolinks
 //= require_tree .
